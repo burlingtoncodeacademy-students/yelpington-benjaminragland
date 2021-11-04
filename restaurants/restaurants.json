@@ -1,0 +1,113 @@
+[
+  {
+    "id": "bliss-bee",
+    "name": "Bliss Bee",
+    "latitude": 44.436718897544225,
+    "longitude": -73.21085727865812,
+    "address": "1185 Shelburne Rd, South Burlington, VT 05403",
+    "phone": "(802) 540-3090",
+    "hours": "11AM - 8PM",
+    "notes": [
+      "Burgers, shakes, creemees, and grain bowls",
+      "locally sourced meats and cheeses"
+    ]
+  },
+
+  {
+    "id": "burlington-bagel-bakery",
+    "name": "Burlington Bagel Bakery",
+    "latitude": 44.44195377544982,
+    "longitude": -73.20945167394733,
+    "address": "992 Shelburne Rd, South Burlington, VT 05403",
+    "phone": "(802) 864-0236",
+    "hours": "6:30AM - 3PM",
+    "notes": [
+      "New York style water bagels are the best around.",
+      "Great bang for your buck!"
+    ]
+  },
+
+  {
+    "id": "panera-bread",
+    "name": "Panera Bread",
+    "latitude": 44.437062685237294,
+    "longitude": -73.20947313158467,
+    "address": "1184 Shelburne Rd, South Burlington, VT 05403",
+    "phone": "(802) 860-1130",
+    "hours": "7AM - 9PM",
+    "notes": [
+      "Free coffee & tea club is the best!",
+      "Great soups and sandwiches"
+    ]
+  },
+
+  {
+    "id": "tastee-grill",
+    "name": "TASTee GRILL",
+    "latitude": 44.44034133128513,
+    "longitude": -73.21026706543543,
+    "address": "1041 Shelburne Rd, South Burlington, VT 05403",
+    "phone": "(802) 489-5122",
+    "hours": "6AM - 3PM",
+    "notes": [
+      "Southern style grill hidden in a gas station.",
+      "Great breakfast and affordable prices."
+    ]
+  },
+
+  {
+    "id": "great-harvest",
+    "name": "Great Harvest",
+    "latitude": 44.46896859311432,
+    "longitude": -73.21423377529054,
+    "address": "382 Pine St, Burlington, VT 05401",
+    "phone": "(802) 660-2733",
+    "hours": "8AM - 3PM",
+    "notes": [
+      "Best bread in town! Made with fresh milled whole wheat flour.",
+      "Perfect paninis and really tasty baked treats."
+    ]
+  },
+
+  {
+    "id": "eco-bean",
+    "name": "Eco Bean & Greens",
+    "latitude": 44.465599056053094,
+    "longitude": -73.17960676974194,
+    "address": "150 Dorset St Suite 304, South Burlington, VT 05403",
+    "phone": "(802) 497-0510",
+    "hours": "9AM - 8PM",
+    "notes": [
+      "Organic cafe with amazing salads and grain bowls.",
+      "locally sourced ingredients and incredible smoothies"
+    ]
+  },
+
+  {
+    "id": "great-northern",
+    "name": "The Great Northern",
+    "latitude": 44.4598586503207,
+    "longitude": -73.21354245200371,
+    "address": "716 Pine St, Burlington, VT 05401",
+    "phone": "(802) 489-5102",
+    "hours": "112PM - 8PM",
+    "notes": [
+      "Bar with great beer and good burgers",
+      "Sandwiches are a little small for the price"
+    ]
+  },
+
+  {
+    "id": "leonardos",
+    "name": "Leonardo's Pizza",
+    "latitude": 44.469495769785595,
+    "longitude": -73.17546045947647,
+    "address": "1160 Williston Rd, South Burlington, VT 05403",
+    "phone": "(802) 951-9000",
+    "hours": "11AM - 11PM",
+    "notes": [
+      "Quality ingredients and plentiful coupons for all pizzas.",
+      "By far the best pizza in town!"
+    ]
+  }
+]
