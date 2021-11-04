@@ -2,7 +2,7 @@
   "name": "yelpington",
   "version": "1.0.0",
   "description": "Burlington Code Academy restaurant app",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "node sanityCheck.js",
     "start": "nodemon"

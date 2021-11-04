@@ -1,0 +1,13 @@
+{
+  "id": "great-harvest",
+  "name": "Great Harvest",
+  "latitude": 44.46896859311432,
+  "longitude": -73.21423377529054,
+  "address": "382 Pine St, Burlington, VT 05401",
+  "phone": "(802) 660-2733",
+  "hours": "8AM - 3PM",
+  "notes": [
+    "Best bread in town! Made with fresh milled whole wheat flour.",
+    "Perfect paninis and really tasty baked treats."
+  ]
+}
