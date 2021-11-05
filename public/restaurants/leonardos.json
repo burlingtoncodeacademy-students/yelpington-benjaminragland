@@ -1,0 +1,13 @@
+{
+  "id": "leonardos",
+  "name": "Leonardo's Pizza",
+  "latitude": 44.469495769785595,
+  "longitude": -73.17546045947647,
+  "address": "1160 Williston Rd, South Burlington, VT 05403",
+  "phone": "(802) 951-9000",
+  "hours": "11AM - 11PM",
+  "notes": [
+    "Quality ingredients and plentiful coupons for all pizzas.",
+    "By far the best pizza in town!"
+  ]
+}

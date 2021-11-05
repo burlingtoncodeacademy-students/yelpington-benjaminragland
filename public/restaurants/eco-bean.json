@@ -1,0 +1,13 @@
+{
+  "id": "eco-bean",
+  "name": "Eco Bean & Greens",
+  "latitude": 44.465599056053094,
+  "longitude": -73.17960676974194,
+  "address": "150 Dorset St Suite 304, South Burlington, VT 05403",
+  "phone": "(802) 497-0510",
+  "hours": "9AM - 8PM",
+  "notes": [
+    "Organic cafe with amazing salads and grain bowls.",
+    "locally sourced ingredients and incredible smoothies"
+  ]
+}

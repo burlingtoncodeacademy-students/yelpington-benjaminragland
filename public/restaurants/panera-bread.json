@@ -1,0 +1,10 @@
+{
+  "id": "panera-bread",
+  "name": "Panera Bread",
+  "latitude": 44.437062685237294,
+  "longitude": -73.20947313158467,
+  "address": "1184 Shelburne Rd, South Burlington, VT 05403",
+  "phone": "(802) 860-1130",
+  "hours": "7AM - 9PM",
+  "notes": ["Free coffee & tea club is the best!", "Great soups and sandwiches"]
+}
