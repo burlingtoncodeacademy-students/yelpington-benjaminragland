@@ -1,17 +1,21 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import Map from "./components/Map";
-import Header from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Map from "./components/Map.jsx";
+import Header from "./components/Header.jsx";
+import Sidebar from "./components/Sidebar";
+import Restaurant from "./components/Restaurant";
+import Index from "./components/Index";
 
-function App() {
-  const [center, setCenter] = useState([44.47768806802766, -73.19610866743429]);
-
+function App(props) {
   return (
     <>
-      <Header />
-      <div id="main-container">
-        <Map center={center} setCenter={setCenter} />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/restaurant" element={<Restaurant />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
