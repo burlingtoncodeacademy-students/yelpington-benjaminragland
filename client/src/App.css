@@ -1,5 +1,7 @@
+/* global styles for all pages*/
 * {
   box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 :root {
@@ -9,6 +11,8 @@
 body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
+
+/* Styling for main Yelpington page */
 #header-container {
   display: flex;
   justify-content: center;
@@ -16,8 +20,13 @@ body {
   width: 60vw;
   height: 6em;
   background-color: cadetblue;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
+h1 {
+  color: #333;
+  font-size: 4em;
+}
+
 #main-container {
   display: flex;
   flex-direction: column;
@@ -32,14 +41,6 @@ body {
   justify-content: space-between;
 }
 
-#sidebar-container {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  justify-content: space-between;
-  background-color: cornflowerblue;
-}
-
 .sidebar-header {
   font-size: 2em;
   color: #333;
@@ -47,16 +48,25 @@ body {
   padding: 0 0.91em;
 }
 
-h1 {
-  color: #333;
-  font-size: 4em;
+#sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  padding-bottom: 1em;
 }
 
+.link {
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+/* Styling for  individual restaurant pages*/
 #main-restaurant-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   height: 100vh;
 }
 
@@ -66,11 +76,6 @@ h1 {
   justify-content: center;
 }
 
-.link {
-  margin-left: 2em;
-  font-size: 1.5em;
-}
-
 #restaurant-info {
   display: flex;
   flex-direction: column;
@@ -78,6 +83,8 @@ h1 {
   height: 12em;
   background-color: cadetblue;
   padding-left: 1em;
+  font-size: 1.25em;
+  letter-spacing: 0.8px;
 }
 
 h2 {
@@ -96,4 +103,20 @@ h2 {
 
 #comments {
   padding-right: 1em;
+  letter-spacing: 0.8px;
+  font-size: 1.25em;
+}
+
+#footer-container {
+  display: flex;
+  width: 60vw;
+  height: 6em;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  padding-top: 0;
+  font-size: 1.75em;
 }

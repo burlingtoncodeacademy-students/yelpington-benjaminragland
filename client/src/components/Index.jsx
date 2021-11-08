@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./Header";
 import Map from "./Map";
 import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 
 function Index(props) {
   const [center, setCenter] = useState([44.47, -73.2]);
@@ -22,6 +23,7 @@ function Index(props) {
           restLon={props.restLon}
         />
       </div>
+      <Footer />
     </container>
   );
 }
