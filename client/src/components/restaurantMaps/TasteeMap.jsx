@@ -1,7 +1,9 @@
+// imports for map and styling
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "../App.css";
+import "../../App.css";
 
-function Map(props) {
+function TasteeMap(props) {
+  //longitude and latitude assignments to variables for each restaurant
   const greatHarvestLocation = [44.46896859311432, -73.21423377529054];
   const blissBeeLocation = [44.436718897544225, -73.21085727865812];
   const burlingtonBagelLocation = [44.44195377544982, -73.20945167394733];
@@ -11,17 +13,19 @@ function Map(props) {
   const ecoBeanLocation = [44.465599056053094, -73.17960676974194];
   const leonardosLocation = [44.469495769785595, -73.17546045947647];
   return (
+    //map and tile layer for individual map
     <MapContainer
       id="map-container"
-      center={props.center}
-      zoom={13}
+      center={tasteeLocation}
+      zoom={17}
       style={{ height: "55vh", width: "40vw" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={props.center}>
+      {/* restaurant marker popups and links for all restaurants */}
+      <Marker position={[44.47, -73.2]}>
         <Popup>Downtown Burlington VT</Popup>
       </Marker>
       <Marker position={greatHarvestLocation}>
@@ -72,4 +76,4 @@ function Map(props) {
   );
 }
 
-export default Map;
+export default TasteeMap;
