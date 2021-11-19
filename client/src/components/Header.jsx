@@ -1,4 +1,6 @@
 import "../App.css";
+
+// Header Component containing H1 title
 function Header(props) {
   return (
     <>

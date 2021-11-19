@@ -1,4 +1,6 @@
 import "../App.css";
+
+// Footer Component containing Yelpington slogan
 function Footer(props) {
   return (
     <>

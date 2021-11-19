@@ -1,4 +1,7 @@
+// Stylesheet imports
 import "../App.css";
+
+// Component function for displaying individual restaurant name on dedicated restaurant page
 function RestaurantHeader(props) {
   return (
     <>

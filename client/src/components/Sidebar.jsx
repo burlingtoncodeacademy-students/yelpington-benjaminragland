@@ -1,12 +1,15 @@
+// React imports
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Component function for all individual restaurant links
 function Sidebar(props) {
   return (
     <>
       <div id="sidebar-container">
         <h1 className="sidebar-header">Burlington Restaurants</h1>
 
+        {/* Individual restaurant links in the sidebar */}
         <Link className="link" to="/restaurant/bliss-bee">
           Bliss Bee
         </Link>

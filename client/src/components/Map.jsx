@@ -1,7 +1,11 @@
+// React and stylesheet imports
+
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "../App.css";
 
+// Map function component for Leaflet Map
 function Map(props) {
+  // variable declarations for each restaurant pin on the map
   const greatHarvestLocation = [44.46896859311432, -73.21423377529054];
   const blissBeeLocation = [44.436718897544225, -73.21085727865812];
   const burlingtonBagelLocation = [44.44195377544982, -73.20945167394733];
@@ -11,6 +15,7 @@ function Map(props) {
   const ecoBeanLocation = [44.465599056053094, -73.17960676974194];
   const leonardosLocation = [44.469495769785595, -73.17546045947647];
   return (
+    // Leaftlet Map and tilelayer for it
     <MapContainer
       id="map-container"
       center={props.center}
@@ -21,6 +26,8 @@ function Map(props) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
+
+      {/* Map markers for each individual restaurant and downtown Burlington  */}
       <Marker position={props.center}>
         <Popup>Downtown Burlington VT</Popup>
       </Marker>

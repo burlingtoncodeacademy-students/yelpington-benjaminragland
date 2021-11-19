@@ -1,5 +1,7 @@
+// stylesheet import
 import "../App.css";
 
+// Component function for displaying all the individual restaurant's information
 function RestInfo(props) {
   return (
     <>
