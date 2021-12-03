@@ -1,0 +1,13 @@
+{
+  "id": "burlington-bagel-bakery",
+  "name": "Burlington Bagel Bakery",
+  "latitude": 44.44195377544982,
+  "longitude": -73.20945167394733,
+  "address": "992 Shelburne Rd, South Burlington, VT 05403",
+  "phone": "(802) 864-0236",
+  "hours": "6:30AM - 3PM",
+  "notes": [
+    "New York style water bagels are the best around.",
+    "Great bang for your buck!"
+  ]
+}

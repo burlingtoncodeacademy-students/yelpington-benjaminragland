@@ -1,0 +1,13 @@
+{
+  "id": "great-northern",
+  "name": "The Great Northern",
+  "latitude": 44.4598586503207,
+  "longitude": -73.21354245200371,
+  "address": "716 Pine St, Burlington, VT 05401",
+  "phone": "(802) 489-5102",
+  "hours": "112PM - 8PM",
+  "notes": [
+    "Bar with great beer and good burgers",
+    "Sandwiches are a little small for the price"
+  ]
+}

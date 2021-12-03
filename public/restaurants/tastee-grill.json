@@ -1,0 +1,13 @@
+{
+  "id": "tastee-grill",
+  "name": "TASTee GRILL",
+  "latitude": 44.44034133128513,
+  "longitude": -73.21026706543543,
+  "address": "1041 Shelburne Rd, South Burlington, VT 05403",
+  "phone": "(802) 489-5122",
+  "hours": "6AM - 3PM",
+  "notes": [
+    "Southern style grill hidden in a gas station.",
+    "Great breakfast and affordable prices."
+  ]
+}

@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+/* global styles for all pages*/
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ~~~~~~~~~~~~~~~~ Styling for main Yelpington page ~~~~~~~~~~~~~~~~ */
+
+/* Styling for header */
+#header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 6em;
+  background-color: cadetblue;
+}
+
+h1 {
+  color: #333;
+  font-size: 4em;
+}
+
+/* Styling for main content and map flex containers*/
+#main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+#map-container {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for sidebar and links within */
+.sidebar-header {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  padding: 0 0.91em;
+}
+
+#sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  padding-bottom: 1em;
+}
+
+.link {
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+/* Styling for main page footer */
+#footer-container {
+  display: flex;
+  width: 60vw;
+  height: 6em;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  padding-top: 0;
+  font-size: 1.75em;
+}
+
+/* ~~~~~~~~~~~~~~~ Styling for  individual restaurant pages ~~~~~~~~~~~~~~~~ */
+
+/* Styling for main content and restaurant flex containers */
+#main-restaurant-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#restaurant-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+/* Styling for individual restaurant flex container and contents */
+#info-container {
+  display: flex;
+  width: 60vw;
+  background-color: cadetblue;
+}
+
+h2 {
+  text-align: center;
+  background-color: cadetblue;
+  width: 60vw;
+  margin: 0;
+  padding-top: 1em;
+}
+
+#restaurant-info {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 12em;
+  background-color: cadetblue;
+  padding-left: 1em;
+  font-size: 1.25em;
+  letter-spacing: 0.8px;
+}
+
+#comments {
+  padding-right: 1em;
+  letter-spacing: 0.8px;
+  font-size: 1.25em;
 }
